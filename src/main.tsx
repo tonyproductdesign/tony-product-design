@@ -20,9 +20,12 @@ try {
 } catch (error) { console.error("Invalid pre-rendered data; fetching JSON instead.", error); }
 const root = document.getElementById("root");
 if (!root) throw new Error("Root element missing");
+const renderedPath = root.dataset.renderedPath;
+const currentPath = window.location.pathname.replace(/\/$/, "") || "/";
 const app = <StrictMode><ErrorBoundary><ContentProvider initialData={initialData}><ThemeProvider><BrowserRouter basename={import.meta.env.BASE_URL}><AppRoutes /></BrowserRouter></ThemeProvider></ContentProvider></ErrorBoundary></StrictMode>;
 // Query-driven filters/forms differ from the query-free static HTML.
       // Re-render these URLs and the generic host 404 without mismatched hydration.
       const queryDriven = ["q", "category", "service"].some((key) => new URLSearchParams(window.location.search).has(key));
-      if (initialData && root.hasChildNodes() && !root.dataset.noHydrate && !queryDriven) hydrateRoot(root, app);
+      const prerenderMatchesUrl = renderedPath === currentPath;
+      if (initialData && root.hasChildNodes() && !root.dataset.noHydrate && prerenderMatchesUrl && !queryDriven) hydrateRoot(root, app);
 else createRoot(root).render(app);

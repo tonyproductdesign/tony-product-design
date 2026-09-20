@@ -48,7 +48,8 @@ for (const locale of ["en", "vi"]) {
 const rootLocale = content.site.defaultLocale;
 const rootRoute = { ...routes.find((route) => route.path === `/${rootLocale}`), path: "/", canonicalPath: `/${rootLocale}` };
 const notFound = { path: "/en/not-found", locale: "en", title: "404", description: content.copy.common.notFoundBody.en, noindex: true, output: "404.html" };
-for (const route of [rootRoute, ...routes, notFound]) {
+const staticRoutes = routes.filter((route) => !/^\/(?:en|vi)\/(?:services|projects|insights)\/[^/]+$/.test(route.path));
+for (const route of [rootRoute, ...staticRoutes, notFound]) {
   const canonicalPath = route.canonicalPath || route.path;
   const title = `${route.title.replaceAll("\n", " ")} | ${content.site.name}`;
   const canonical = absolute(canonicalPath);
@@ -80,9 +81,10 @@ for (const route of [rootRoute, ...routes, notFound]) {
     }
   }
   head = head.join("\n    ");
+  const renderedPath = `${base}${route.path.replace(/^\/+/, "")}`;
   const html = template.replace('lang="en"', `lang="${route.locale}"`)
     .replace(/<!--seo-start-->[\s\S]*?<!--seo-end-->/, `<!--seo-start-->\n${head}\n<!--seo-end-->`)
-    .replace('<div id="root">', route.noindex ? '<div id="root" data-no-hydrate="true">' : '<div id="root">')
+    .replace('<div id="root">', route.noindex ? `<div id="root" data-no-hydrate="true" data-rendered-path="${renderedPath}">` : `<div id="root" data-rendered-path="${renderedPath}">`)
       .replace("<!--app-html-->", render(route.path, content))
     .replace("<!--app-data-->", `<script id="tony-bootstrap" type="application/json">${serialized}</script>`);
   const output = route.output ? join(dist, route.output) : route.path === "/" ? join(dist, "index.html") : join(dist, route.path.replace(/^\//, ""), "index.html");
@@ -97,4 +99,4 @@ if (origin) {
   await writeFile(join(dist, "robots.txt"), "User-agent: *\nDisallow: /\n");
   console.warn("Preview build: VITE_SITE_URL is blank. noindex is enabled; no sitemap was generated.");
 }
-console.log(`Pre-rendered ${routes.length + 2} HTML pages. Deployment output: dist/`);
+console.log(`Pre-rendered ${staticRoutes.length + 2} HTML pages. Deployment output: dist/`);

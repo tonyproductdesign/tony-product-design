@@ -13,7 +13,7 @@
     "lint": "eslint .",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "check": "npm run typecheck && npm run lint && npm test",
-    "build": "npm run typecheck && vite build && vite build --ssr src/entry-server.tsx --outDir .ssr --emptyOutDir && node scripts/prerender.mjs",
+    "build": "npm run typecheck && vite build && vite build --ssr src/entry-server.tsx --outDir .ssr --emptyOutDir && node scripts/prerender.mjs && node scripts/optimize-dist.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test:e2e": "playwright test",
     "images": "node scripts/list-product-images.mjs"
