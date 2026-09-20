@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "concept-design",
+    "number": "01",
+    "icon": "Workflow",
+    "title": {
+      "en": "Idea & concept",
+      "vi": "Ý tưởng & phác thảo"
+    },
+    "headline": {
+      "en": "A clear idea.\nA meaningful direction.",
+      "vi": "Ý tưởng rõ ràng.\nHướng đi có ý nghĩa."
+    },
+    "summary": {
+      "en": "Turn a product opportunity into a focused brief, initial sketches and an agreed design direction.",
+      "vi": "Biến cơ hội sản phẩm thành yêu cầu rõ ràng, phác thảo ban đầu và hướng thiết kế thống nhất."
+    },
+    "tags": [
+      "Research",
+      "Concept",
+      "Sketch"
+    ],
+    "deliverables": [
+      {
+        "en": "Product brief and priorities",
+        "vi": "Yêu cầu sản phẩm và thứ tự ưu tiên"
+      },
+      {
+        "en": "Concept sketches and direction boards",
+        "vi": "Phác thảo ý tưởng và bảng định hướng"
+      },
+      {
+        "en": "A documented design direction",
+        "vi": "Định hướng thiết kế được ghi nhận"
+      }
+    ],
+    "steps": [
+      {
+        "en": "Understand the user, purpose and constraints.",
+        "vi": "Tìm hiểu người dùng, mục đích và ràng buộc."
+      },
+      {
+        "en": "Explore alternative forms and interactions.",
+        "vi": "Khám phá phương án hình dáng và tương tác."
+      },
+      {
+        "en": "Review and select a direction together.",
+        "vi": "Cùng rà soát và lựa chọn hướng phát triển."
+      }
+    ]
+  },
+  {
+    "slug": "industrial-design",
+    "number": "02",
+    "icon": "Box",
+    "title": {
+      "en": "Industrial design",
+      "vi": "Thiết kế công nghiệp"
+    },
+    "headline": {
+      "en": "Made to feel right.\nDesigned to fit.",
+      "vi": "Đúng trải nghiệm.\nHợp kết cấu."
+    },
+    "summary": {
+      "en": "Connect industrial design, 3D structure and plastic enclosure development with the electronics inside.",
+      "vi": "Kết nối thiết kế công nghiệp, kết cấu 3D và phát triển vỏ nhựa với phần điện tử bên trong."
+    },
+    "tags": [
+      "3D design",
+      "Enclosure",
+      "DFM"
+    ],
+    "deliverables": [
+      {
+        "en": "3D form and structure development",
+        "vi": "Phát triển hình dáng và kết cấu 3D"
+      },
+      {
+        "en": "Plastic enclosure and assembly planning",
+        "vi": "Thiết kế vỏ nhựa và phương án lắp ráp"
+      },
+      {
+        "en": "Electronics and PCB integration review",
+        "vi": "Rà soát tích hợp điện tử và PCB"
+      }
+    ],
+    "steps": [
+      {
+        "en": "Develop form, proportions and key interactions.",
+        "vi": "Phát triển hình dáng, tỷ lệ và tương tác chính."
+      },
+      {
+        "en": "Align the enclosure with internal component needs.",
+        "vi": "Đồng bộ vỏ với yêu cầu linh kiện bên trong."
+      },
+      {
+        "en": "Review assembly and manufacturability with relevant partners.",
+        "vi": "Rà soát lắp ráp và khả năng sản xuất với đối tác liên quan."
+      }
+    ]
+  },
+  {
+    "slug": "prototyping",
+    "number": "03",
+    "icon": "Wrench",
+    "title": {
+      "en": "Prototype & validation",
+      "vi": "Mẫu thử & xác minh"
+    },
+    "headline": {
+      "en": "Make it tangible.\nLearn from the build.",
+      "vi": "Làm mẫu thực tế.\nHọc từ chế tạo."
+    },
+    "summary": {
+      "en": "Move from design files to physical prototypes, structured feedback and the next design iteration.",
+      "vi": "Chuyển từ dữ liệu thiết kế sang mẫu vật lý, phản hồi có hệ thống và vòng cải tiến tiếp theo."
+    },
+    "tags": [
+      "Prototype",
+      "Testing",
+      "Refinement"
+    ],
+    "deliverables": [
+      {
+        "en": "Prototype preparation and coordination",
+        "vi": "Chuẩn bị và phối hợp làm mẫu"
+      },
+      {
+        "en": "Review criteria agreed for the prototype",
+        "vi": "Tiêu chí đánh giá mẫu được thống nhất"
+      },
+      {
+        "en": "Feedback and revision tracking",
+        "vi": "Theo dõi phản hồi và cập nhật thiết kế"
+      }
+    ],
+    "steps": [
+      {
+        "en": "Define what the prototype must help us learn.",
+        "vi": "Xác định điều cần học từ mẫu thử."
+      },
+      {
+        "en": "Coordinate fabrication, assembly and review.",
+        "vi": "Phối hợp chế tạo, lắp ráp và rà soát."
+      },
+      {
+        "en": "Capture findings and refine the design.",
+        "vi": "Ghi nhận kết quả và hoàn thiện thiết kế."
+      }
+    ]
+  },
+  {
+    "slug": "manufacturing-support",
+    "number": "04",
+    "icon": "CircuitBoard",
+    "title": {
+      "en": "Manufacturing support",
+      "vi": "Hỗ trợ sản xuất"
+    },
+    "headline": {
+      "en": "A considered handoff.\nA supported next step.",
+      "vi": "Bàn giao kỹ lưỡng.\nHỗ trợ bước tiếp theo."
+    },
+    "summary": {
+      "en": "Support DFM discussions, contract-manufacturer coordination, SOP preparation and quality-control planning.",
+      "vi": "Hỗ trợ trao đổi DFM, phối hợp nhà sản xuất, chuẩn bị SOP và lập kế hoạch kiểm soát chất lượng."
+    },
+    "tags": [
+      "CM coordination",
+      "SOP",
+      "Quality control"
+    ],
+    "deliverables": [
+      {
+        "en": "Manufacturing handoff preparation",
+        "vi": "Chuẩn bị bàn giao sản xuất"
+      },
+      {
+        "en": "Supplier and contract-manufacturer coordination",
+        "vi": "Phối hợp nhà cung cấp và nhà sản xuất"
+      },
+      {
+        "en": "SOP and quality-review planning support",
+        "vi": "Hỗ trợ lập kế hoạch SOP và rà soát chất lượng"
+      }
+    ],
+    "steps": [
+      {
+        "en": "Review the design and open manufacturing questions.",
+        "vi": "Rà soát thiết kế và vấn đề sản xuất còn mở."
+      },
+      {
+        "en": "Coordinate decisions and handoff documentation.",
+        "vi": "Phối hợp quyết định và tài liệu bàn giao."
+      },
+      {
+        "en": "Support agreed production-readiness activities.",
+        "vi": "Hỗ trợ các hoạt động chuẩn bị sản xuất đã thống nhất."
+      }
+    ]
+  }
+]

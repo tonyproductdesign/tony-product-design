@@ -1,0 +1,191 @@
+[
+  {
+    "slug": "better-hardware-brief",
+    "number": "01",
+    "category": {
+      "en": "PROJECT PLANNING",
+      "vi": "LẬP KẾ HOẠCH"
+    },
+    "title": {
+      "en": "A better brief. A better first conversation.",
+      "vi": "Yêu cầu rõ hơn. Trao đổi hiệu quả hơn."
+    },
+    "summary": {
+      "en": "The information worth gathering before you speak to an engineering partner.",
+      "vi": "Những thông tin nên chuẩn bị trước khi trao đổi cùng đối tác kỹ thuật."
+    },
+    "readTime": {
+      "en": "4 min read",
+      "vi": "Đọc trong 4 phút"
+    },
+    "download": "project-brief",
+    "sections": [
+      {
+        "heading": {
+          "en": "Start with the product, not the files",
+          "vi": "Bắt đầu từ sản phẩm, không chỉ file"
+        },
+        "body": {
+          "en": "Explain who will use the product, where it operates and the problem it needs to solve. A concise product description gives the engineering discussion a useful reference point.",
+          "vi": "Mô tả người sử dụng, môi trường hoạt động và vấn đề sản phẩm cần giải quyết. Mô tả ngắn gọn tạo điểm tham chiếu hữu ích cho trao đổi kỹ thuật."
+        }
+      },
+      {
+        "heading": {
+          "en": "Separate constraints from preferences",
+          "vi": "Phân biệt ràng buộc và mong muốn"
+        },
+        "body": {
+          "en": "List mandatory interfaces, board dimensions, connector positions and any fixed components. Keep preferences in a separate list so the team knows where alternatives may be discussed.",
+          "vi": "Liệt kê giao tiếp bắt buộc, kích thước bo mạch, vị trí đầu nối và linh kiện cố định. Tách mong muốn thành danh sách riêng để đội ngũ biết phần nào có thể trao đổi phương án khác."
+        }
+      },
+      {
+        "heading": {
+          "en": "State what already exists",
+          "vi": "Nêu rõ dữ liệu hiện có"
+        },
+        "body": {
+          "en": "Identify available schematics, PCB files, 3D models and previous revisions. Record the tool name and version. Do not assume a screenshot replaces an editable source file.",
+          "vi": "Xác định sơ đồ nguyên lý, file PCB, mô hình 3D và phiên bản cũ đang có. Ghi tên và phiên bản công cụ. Ảnh chụp không thay thế file nguồn có thể chỉnh sửa."
+        }
+      },
+      {
+        "heading": {
+          "en": "Agree on the finish line",
+          "vi": "Thống nhất đầu ra cuối"
+        },
+        "body": {
+          "en": "Describe the outputs you expect, who will review them and how changes will be managed. Share schedule constraints as planning inputs rather than assuming an unreviewed deadline is feasible.",
+          "vi": "Mô tả đầu ra mong muốn, người rà soát và cách quản lý thay đổi. Chia sẻ ràng buộc tiến độ như đầu vào lập kế hoạch thay vì mặc định thời hạn chưa rà soát là khả thi."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "design-handoff-checklist",
+    "number": "02",
+    "category": {
+      "en": "DESIGN HANDOFF",
+      "vi": "BÀN GIAO THIẾT KẾ"
+    },
+    "title": {
+      "en": "Make the handoff less of a guessing game.",
+      "vi": "Để bàn giao không còn phải đoán."
+    },
+    "summary": {
+      "en": "A practical starting point for organizing the files and decisions around a design release.",
+      "vi": "Điểm khởi đầu để tổ chức dữ liệu và quyết định trong lần phát hành thiết kế."
+    },
+    "readTime": {
+      "en": "3 min read",
+      "vi": "Đọc trong 3 phút"
+    },
+    "download": "handoff-checklist",
+    "sections": [
+      {
+        "heading": {
+          "en": "Name a release, not a folder of possibilities",
+          "vi": "Đặt tên phiên bản phát hành rõ ràng"
+        },
+        "body": {
+          "en": "Give the release a clear identifier and record which files belong to it. Keep superseded files separate to reduce ambiguity during the handoff.",
+          "vi": "Đặt mã rõ ràng cho bản phát hành và ghi nhận các file thuộc bản đó. Tách file cũ để giảm nhầm lẫn khi bàn giao."
+        }
+      },
+      {
+        "heading": {
+          "en": "Make the agreed outputs visible",
+          "vi": "Làm rõ đầu ra đã thống nhất"
+        },
+        "body": {
+          "en": "Create a manifest of source files, exports, drawings and notes agreed in the project scope. The correct package depends on the selected tools and manufacturing process; this checklist does not prescribe a universal format.",
+          "vi": "Lập danh mục file nguồn, file xuất, bản vẽ và ghi chú theo phạm vi dự án. Bộ dữ liệu phù hợp phụ thuộc công cụ và phương pháp sản xuất; checklist không quy định một định dạng chung cho mọi dự án."
+        }
+      },
+      {
+        "heading": {
+          "en": "Track open questions explicitly",
+          "vi": "Ghi nhận câu hỏi còn mở"
+        },
+        "body": {
+          "en": "List unresolved decisions, assumptions and items awaiting approval. Assign an owner to each item rather than allowing a note to look like a finished decision.",
+          "vi": "Liệt kê quyết định chưa chốt, giả định và mục đang chờ phê duyệt. Xác định người phụ trách để ghi chú chưa hoàn tất không bị hiểu là quyết định cuối."
+        }
+      },
+      {
+        "heading": {
+          "en": "Confirm receipt and review",
+          "vi": "Xác nhận tiếp nhận và rà soát"
+        },
+        "body": {
+          "en": "Ask the receiving party to confirm that the files open and that the package matches the agreed scope. Record the outcome and any follow-up actions before considering the handoff complete.",
+          "vi": "Đề nghị bên nhận xác nhận mở được file và bộ dữ liệu đúng phạm vi. Ghi nhận kết quả, việc cần làm tiếp trước khi xem là hoàn tất bàn giao."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "electrical-mechanical-alignment",
+    "number": "03",
+    "category": {
+      "en": "COLLABORATION",
+      "vi": "PHỐI HỢP"
+    },
+    "title": {
+      "en": "Bring electrical and mechanical into the same conversation.",
+      "vi": "Để điện và cơ khí cùng chung tiếng nói."
+    },
+    "summary": {
+      "en": "Shared questions that help teams discuss board-to-enclosure integration early.",
+      "vi": "Những câu hỏi giúp đội ngũ sớm trao đổi về tích hợp bo mạch và vỏ hộp."
+    },
+    "readTime": {
+      "en": "3 min read",
+      "vi": "Đọc trong 3 phút"
+    },
+    "download": "integration-checklist",
+    "sections": [
+      {
+        "heading": {
+          "en": "Agree on a common reference",
+          "vi": "Thống nhất hệ tham chiếu"
+        },
+        "body": {
+          "en": "Confirm the coordinate reference, units and board outline used in the shared models. Record any assumptions about the enclosure and mounting points.",
+          "vi": "Xác nhận hệ tọa độ, đơn vị và biên dạng bo mạch sử dụng trong mô hình chung. Ghi nhận giả định về vỏ hộp và điểm gá lắp."
+        }
+      },
+      {
+        "heading": {
+          "en": "Discuss how the product is used",
+          "vi": "Trao đổi cách sử dụng sản phẩm"
+        },
+        "body": {
+          "en": "Review connector access, cable direction, assembly order and service access together. These are questions to review against the actual product requirements, not universal design prescriptions.",
+          "vi": "Cùng rà soát cách tiếp cận đầu nối, hướng dây, thứ tự lắp ráp và tiếp cận bảo trì. Cần đối chiếu với yêu cầu sản phẩm thực tế, không áp dụng như quy tắc chung."
+        }
+      },
+      {
+        "heading": {
+          "en": "Keep changes synchronized",
+          "vi": "Đồng bộ thay đổi"
+        },
+        "body": {
+          "en": "Decide how changed board outlines, component heights or connector locations are communicated. Associate each exchanged model with a known design revision.",
+          "vi": "Thống nhất cách thông báo thay đổi biên dạng bo mạch, chiều cao linh kiện hoặc vị trí đầu nối. Gắn mô hình trao đổi với phiên bản thiết kế xác định."
+        }
+      },
+      {
+        "heading": {
+          "en": "Review the fit together",
+          "vi": "Cùng rà soát lắp ghép"
+        },
+        "body": {
+          "en": "Schedule a joint review of the agreed interfaces and document what was checked. Where verification needs a prototype or manufacturer input, make that dependency explicit.",
+          "vi": "Rà soát chung các giao diện đã thống nhất và ghi lại nội dung kiểm tra. Nếu cần mẫu thử hoặc ý kiến nhà sản xuất để xác minh, hãy nêu rõ phụ thuộc đó."
+        }
+      }
+    ]
+  }
+]

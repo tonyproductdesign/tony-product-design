@@ -1,0 +1,536 @@
+[
+  {
+    "slug": "smart-speaker-concept",
+    "number": "01",
+    "category": "product",
+    "service": "industrial-design",
+    "title": {
+      "en": "A voice. A character.",
+      "vi": "Một giọng nói. Một cá tính."
+    },
+    "subtitle": {
+      "en": "Smart speaker / Product direction",
+      "vi": "Loa thông minh / Định hướng sản phẩm"
+    },
+    "summary": {
+      "en": "An approachable product character, with a compact silhouette, light ring and screen brought into one visual direction.",
+      "vi": "Một cá tính sản phẩm gần gũi, kết hợp hình khối nhỏ gọn, vòng sáng và màn hình trong một định hướng."
+    },
+    "image": "assets/products/tony-product.webp",
+    "imageAlt": {
+      "en": "Smart speaker / Product direction",
+      "vi": "Loa thông minh / Định hướng sản phẩm"
+    },
+    "tags": [
+      "Product design",
+      "Smart speaker",
+      "Concept study"
+    ],
+    "specs": [
+      {
+        "label": {
+          "en": "Series",
+          "vi": "Nhóm"
+        },
+        "value": "Smart speaker concept"
+      },
+      {
+        "label": {
+          "en": "View",
+          "vi": "Góc nhìn"
+        },
+        "value": "01 / 06"
+      },
+      {
+        "label": {
+          "en": "Material",
+          "vi": "Tư liệu"
+        },
+        "value": "Supplied concept artwork"
+      }
+    ],
+    "overview": {
+      "en": "An approachable product character, with a compact silhouette, light ring and screen brought into one visual direction.",
+      "vi": "Một cá tính sản phẩm gần gũi, kết hợp hình khối nhỏ gọn, vòng sáng và màn hình trong một định hướng."
+    },
+    "focus": [
+      {
+        "en": "Product proportions and visual balance",
+        "vi": "Tỷ lệ sản phẩm và cân bằng thị giác"
+      },
+      {
+        "en": "Light, screen and physical interaction",
+        "vi": "Ánh sáng, màn hình và tương tác vật lý"
+      },
+      {
+        "en": "A coherent appearance across materials",
+        "vi": "Diện mạo đồng bộ giữa các vật liệu"
+      }
+    ],
+    "featured": true,
+    "status": "concept-reference",
+    "gallery": [
+      {
+        "image": "assets/products/tony-sketch.webp",
+        "alt": {
+          "en": "Smart speaker / Concept exploration",
+          "vi": "Loa thông minh / Khám phá ý tưởng"
+        }
+      },
+      {
+        "image": "assets/products/tony-exploded.webp",
+        "alt": {
+          "en": "Smart speaker / Structure & enclosure",
+          "vi": "Loa thông minh / Kết cấu & vỏ"
+        }
+      }
+    ],
+    "imagePosition": "center",
+    "imageFit": "cover"
+  },
+  {
+    "slug": "concept-sketches",
+    "number": "02",
+    "category": "product",
+    "service": "concept-design",
+    "title": {
+      "en": "It starts with a sketch.",
+      "vi": "Bắt đầu từ một phác thảo."
+    },
+    "subtitle": {
+      "en": "Smart speaker / Concept exploration",
+      "vi": "Loa thông minh / Khám phá ý tưởng"
+    },
+    "summary": {
+      "en": "Early sketches explore the product's form and interaction before the design moves into a detailed 3D structure.",
+      "vi": "Phác thảo ban đầu khám phá hình dáng và tương tác trước khi phát triển kết cấu 3D chi tiết."
+    },
+    "image": "assets/products/tony-sketch.webp",
+    "imageAlt": {
+      "en": "Smart speaker / Concept exploration",
+      "vi": "Loa thông minh / Khám phá ý tưởng"
+    },
+    "tags": [
+      "Product design",
+      "Smart speaker",
+      "Concept study"
+    ],
+    "specs": [
+      {
+        "label": {
+          "en": "Series",
+          "vi": "Nhóm"
+        },
+        "value": "Smart speaker concept"
+      },
+      {
+        "label": {
+          "en": "View",
+          "vi": "Góc nhìn"
+        },
+        "value": "02 / 06"
+      },
+      {
+        "label": {
+          "en": "Material",
+          "vi": "Tư liệu"
+        },
+        "value": "Supplied concept artwork"
+      }
+    ],
+    "overview": {
+      "en": "Early sketches explore the product's form and interaction before the design moves into a detailed 3D structure.",
+      "vi": "Phác thảo ban đầu khám phá hình dáng và tương tác trước khi phát triển kết cấu 3D chi tiết."
+    },
+    "focus": [
+      {
+        "en": "Alternative forms and proportions",
+        "vi": "Phương án hình dáng và tỷ lệ"
+      },
+      {
+        "en": "User-facing interactions",
+        "vi": "Tương tác với người sử dụng"
+      },
+      {
+        "en": "Clear questions for the next design stage",
+        "vi": "Câu hỏi rõ ràng cho giai đoạn tiếp theo"
+      }
+    ],
+    "featured": true,
+    "status": "concept-reference",
+    "gallery": [
+      {
+        "image": "assets/products/tony-product.webp",
+        "alt": {
+          "en": "Smart speaker / Product direction",
+          "vi": "Loa thông minh / Định hướng sản phẩm"
+        }
+      },
+      {
+        "image": "assets/products/tony-exploded.webp",
+        "alt": {
+          "en": "Smart speaker / Structure & enclosure",
+          "vi": "Loa thông minh / Kết cấu & vỏ"
+        }
+      }
+    ],
+    "imagePosition": "center",
+    "imageFit": "cover"
+  },
+  {
+    "slug": "structure-and-enclosure",
+    "number": "03",
+    "category": "mechanical",
+    "service": "industrial-design",
+    "title": {
+      "en": "Every part, considered.",
+      "vi": "Chăm chút từng chi tiết."
+    },
+    "subtitle": {
+      "en": "Smart speaker / Structure & enclosure",
+      "vi": "Loa thông minh / Kết cấu & vỏ"
+    },
+    "summary": {
+      "en": "An exploded concept view brings the enclosure, inner structure and electronics into the same conversation.",
+      "vi": "Hình tách lớp ý tưởng đặt vỏ, kết cấu trong và điện tử vào cùng một bài toán."
+    },
+    "image": "assets/products/tony-exploded.webp",
+    "imageAlt": {
+      "en": "Smart speaker / Structure & enclosure",
+      "vi": "Loa thông minh / Kết cấu & vỏ"
+    },
+    "tags": [
+      "Structure",
+      "Smart speaker",
+      "Concept study"
+    ],
+    "specs": [
+      {
+        "label": {
+          "en": "Series",
+          "vi": "Nhóm"
+        },
+        "value": "Smart speaker concept"
+      },
+      {
+        "label": {
+          "en": "View",
+          "vi": "Góc nhìn"
+        },
+        "value": "03 / 06"
+      },
+      {
+        "label": {
+          "en": "Material",
+          "vi": "Tư liệu"
+        },
+        "value": "Supplied concept artwork"
+      }
+    ],
+    "overview": {
+      "en": "An exploded concept view brings the enclosure, inner structure and electronics into the same conversation.",
+      "vi": "Hình tách lớp ý tưởng đặt vỏ, kết cấu trong và điện tử vào cùng một bài toán."
+    },
+    "focus": [
+      {
+        "en": "Plastic enclosure and internal structure",
+        "vi": "Vỏ nhựa và kết cấu bên trong"
+      },
+      {
+        "en": "Component placement and assembly order",
+        "vi": "Bố trí linh kiện và trình tự lắp ráp"
+      },
+      {
+        "en": "Interfaces between electrical and mechanical parts",
+        "vi": "Giao diện giữa phần điện và cơ khí"
+      }
+    ],
+    "featured": true,
+    "status": "concept-reference",
+    "gallery": [
+      {
+        "image": "assets/products/tony-product.webp",
+        "alt": {
+          "en": "Smart speaker / Product direction",
+          "vi": "Loa thông minh / Định hướng sản phẩm"
+        }
+      },
+      {
+        "image": "assets/products/tony-sketch.webp",
+        "alt": {
+          "en": "Smart speaker / Concept exploration",
+          "vi": "Loa thông minh / Khám phá ý tưởng"
+        }
+      }
+    ],
+    "imagePosition": "center",
+    "imageFit": "cover"
+  },
+  {
+    "slug": "electronics-integration",
+    "number": "04",
+    "category": "electronics",
+    "service": "industrial-design",
+    "title": {
+      "en": "Designed from the inside.",
+      "vi": "Thiết kế từ bên trong."
+    },
+    "subtitle": {
+      "en": "Smart speaker / Electronics integration",
+      "vi": "Loa thông minh / Tích hợp điện tử"
+    },
+    "summary": {
+      "en": "A closer view of the supplied concept's internal stack highlights the relationship between the PCB, housing and controls.",
+      "vi": "Góc nhìn gần hơn của cấu trúc bên trong nhấn mạnh mối liên hệ giữa PCB, vỏ và điều khiển."
+    },
+    "image": "assets/products/tony-electronics.webp",
+    "imageAlt": {
+      "en": "Smart speaker / Electronics integration",
+      "vi": "Loa thông minh / Tích hợp điện tử"
+    },
+    "tags": [
+      "Electronics",
+      "Smart speaker",
+      "Concept study"
+    ],
+    "specs": [
+      {
+        "label": {
+          "en": "Series",
+          "vi": "Nhóm"
+        },
+        "value": "Smart speaker concept"
+      },
+      {
+        "label": {
+          "en": "View",
+          "vi": "Góc nhìn"
+        },
+        "value": "04 / 06"
+      },
+      {
+        "label": {
+          "en": "Material",
+          "vi": "Tư liệu"
+        },
+        "value": "Supplied concept artwork"
+      }
+    ],
+    "overview": {
+      "en": "A closer view of the supplied concept's internal stack highlights the relationship between the PCB, housing and controls.",
+      "vi": "Góc nhìn gần hơn của cấu trúc bên trong nhấn mạnh mối liên hệ giữa PCB, vỏ và điều khiển."
+    },
+    "focus": [
+      {
+        "en": "Board-to-enclosure fit",
+        "vi": "Lắp ghép bo mạch với vỏ"
+      },
+      {
+        "en": "Connector and component access",
+        "vi": "Tiếp cận đầu nối và linh kiện"
+      },
+      {
+        "en": "Shared mechanical and electrical references",
+        "vi": "Tham chiếu chung giữa điện và cơ khí"
+      }
+    ],
+    "featured": true,
+    "status": "concept-reference",
+    "gallery": [
+      {
+        "image": "assets/products/tony-product.webp",
+        "alt": {
+          "en": "Smart speaker / Product direction",
+          "vi": "Loa thông minh / Định hướng sản phẩm"
+        }
+      },
+      {
+        "image": "assets/products/tony-sketch.webp",
+        "alt": {
+          "en": "Smart speaker / Concept exploration",
+          "vi": "Loa thông minh / Khám phá ý tưởng"
+        }
+      }
+    ],
+    "imagePosition": "center",
+    "imageFit": "cover"
+  },
+  {
+    "slug": "prototype-and-validation",
+    "number": "05",
+    "category": "prototype",
+    "service": "prototyping",
+    "title": {
+      "en": "Ideas you can hold.",
+      "vi": "Ý tưởng có thể cầm trên tay."
+    },
+    "subtitle": {
+      "en": "Smart speaker / Prototype planning",
+      "vi": "Loa thông minh / Kế hoạch mẫu thử"
+    },
+    "summary": {
+      "en": "The supplied prototype visual illustrates a stage for reviewing the physical form and planning how the design should be evaluated.",
+      "vi": "Hình mẫu thử được cung cấp minh họa giai đoạn rà soát hình dáng vật lý và lập kế hoạch đánh giá."
+    },
+    "image": "assets/products/tony-prototype.webp",
+    "imageAlt": {
+      "en": "Smart speaker / Prototype planning",
+      "vi": "Loa thông minh / Kế hoạch mẫu thử"
+    },
+    "tags": [
+      "Prototype",
+      "Smart speaker",
+      "Concept study"
+    ],
+    "specs": [
+      {
+        "label": {
+          "en": "Series",
+          "vi": "Nhóm"
+        },
+        "value": "Smart speaker concept"
+      },
+      {
+        "label": {
+          "en": "View",
+          "vi": "Góc nhìn"
+        },
+        "value": "05 / 06"
+      },
+      {
+        "label": {
+          "en": "Material",
+          "vi": "Tư liệu"
+        },
+        "value": "Supplied concept artwork"
+      }
+    ],
+    "overview": {
+      "en": "The supplied prototype visual illustrates a stage for reviewing the physical form and planning how the design should be evaluated.",
+      "vi": "Hình mẫu thử được cung cấp minh họa giai đoạn rà soát hình dáng vật lý và lập kế hoạch đánh giá."
+    },
+    "focus": [
+      {
+        "en": "Prototype purpose and review criteria",
+        "vi": "Mục đích mẫu và tiêu chí rà soát"
+      },
+      {
+        "en": "Assembly feedback and physical interaction",
+        "vi": "Phản hồi lắp ráp và tương tác vật lý"
+      },
+      {
+        "en": "Revision priorities after review",
+        "vi": "Ưu tiên cải tiến sau rà soát"
+      }
+    ],
+    "featured": true,
+    "status": "concept-reference",
+    "gallery": [
+      {
+        "image": "assets/products/tony-product.webp",
+        "alt": {
+          "en": "Smart speaker / Product direction",
+          "vi": "Loa thông minh / Định hướng sản phẩm"
+        }
+      },
+      {
+        "image": "assets/products/tony-sketch.webp",
+        "alt": {
+          "en": "Smart speaker / Concept exploration",
+          "vi": "Loa thông minh / Khám phá ý tưởng"
+        }
+      }
+    ],
+    "imagePosition": "center",
+    "imageFit": "cover"
+  },
+  {
+    "slug": "manufacturing-readiness",
+    "number": "06",
+    "category": "manufacturing",
+    "service": "manufacturing-support",
+    "title": {
+      "en": "Thinking beyond the prototype.",
+      "vi": "Nghĩ xa hơn mẫu thử."
+    },
+    "subtitle": {
+      "en": "Smart speaker / Manufacturing planning",
+      "vi": "Loa thông minh / Kế hoạch sản xuất"
+    },
+    "summary": {
+      "en": "Manufacturing is part of the design conversation: DFM, supplier coordination, SOP and quality planning. This visual does not claim an actual production run.",
+      "vi": "Sản xuất là một phần của thiết kế: DFM, phối hợp nhà cung cấp, SOP và chất lượng. Hình không khẳng định đã có đợt sản xuất thực tế."
+    },
+    "image": "assets/products/tony-manufacturing.webp",
+    "imageAlt": {
+      "en": "Smart speaker / Manufacturing planning",
+      "vi": "Loa thông minh / Kế hoạch sản xuất"
+    },
+    "tags": [
+      "Manufacturing",
+      "Smart speaker",
+      "Concept study"
+    ],
+    "specs": [
+      {
+        "label": {
+          "en": "Series",
+          "vi": "Nhóm"
+        },
+        "value": "Smart speaker concept"
+      },
+      {
+        "label": {
+          "en": "View",
+          "vi": "Góc nhìn"
+        },
+        "value": "06 / 06"
+      },
+      {
+        "label": {
+          "en": "Material",
+          "vi": "Tư liệu"
+        },
+        "value": "Supplied concept artwork"
+      }
+    ],
+    "overview": {
+      "en": "Manufacturing is part of the design conversation: DFM, supplier coordination, SOP and quality planning. This visual does not claim an actual production run.",
+      "vi": "Sản xuất là một phần của thiết kế: DFM, phối hợp nhà cung cấp, SOP và chất lượng. Hình không khẳng định đã có đợt sản xuất thực tế."
+    },
+    "focus": [
+      {
+        "en": "DFM questions and supplier feedback",
+        "vi": "Vấn đề DFM và phản hồi nhà cung cấp"
+      },
+      {
+        "en": "SOP and handoff preparation",
+        "vi": "Chuẩn bị SOP và bàn giao"
+      },
+      {
+        "en": "Quality-control planning",
+        "vi": "Lập kế hoạch kiểm soát chất lượng"
+      }
+    ],
+    "featured": true,
+    "status": "concept-reference",
+    "gallery": [
+      {
+        "image": "assets/products/tony-product.webp",
+        "alt": {
+          "en": "Smart speaker / Product direction",
+          "vi": "Loa thông minh / Định hướng sản phẩm"
+        }
+      },
+      {
+        "image": "assets/products/tony-sketch.webp",
+        "alt": {
+          "en": "Smart speaker / Concept exploration",
+          "vi": "Loa thông minh / Khám phá ý tưởng"
+        }
+      }
+    ],
+    "imagePosition": "center",
+    "imageFit": "cover"
+  }
+]

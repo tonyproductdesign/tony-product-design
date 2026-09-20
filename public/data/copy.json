@@ -1,0 +1,1010 @@
+{
+  "common": {
+    "start": {
+      "en": "Let's talk",
+      "vi": "Cùng trao đổi"
+    },
+    "explore": {
+      "en": "Explore the work",
+      "vi": "Khám phá dự án"
+    },
+    "viewAll": {
+      "en": "View all projects",
+      "vi": "Xem tất cả dự án"
+    },
+    "learnMore": {
+      "en": "Explore service",
+      "vi": "Tìm hiểu dịch vụ"
+    },
+    "back": {
+      "en": "Go back",
+      "vi": "Quay lại"
+    },
+    "home": {
+      "en": "Back to home",
+      "vi": "Về trang chủ"
+    },
+    "read": {
+      "en": "Read the guide",
+      "vi": "Đọc hướng dẫn"
+    },
+    "all": {
+      "en": "All work",
+      "vi": "Tất cả"
+    },
+    "search": {
+      "en": "Search the studio",
+      "vi": "Tìm kiếm nội dung"
+    },
+    "searchHint": {
+      "en": "Services, projects, resources…",
+      "vi": "Dịch vụ, dự án, tài nguyên…"
+    },
+    "searchEmpty": {
+      "en": "No matches. Try another keyword.",
+      "vi": "Không tìm thấy. Hãy thử từ khóa khác."
+    },
+    "close": {
+      "en": "Close",
+      "vi": "Đóng"
+    },
+    "menu": {
+      "en": "Open navigation",
+      "vi": "Mở menu"
+    },
+    "theme": {
+      "en": "Toggle light / dark theme",
+      "vi": "Đổi giao diện sáng / tối"
+    },
+    "language": {
+      "en": "Switch to Vietnamese",
+      "vi": "Chuyển sang tiếng Anh"
+    },
+    "skip": {
+      "en": "Skip to content",
+      "vi": "Chuyển đến nội dung"
+    },
+    "loading": {
+      "en": "Loading the studio…",
+      "vi": "Đang tải nội dung…"
+    },
+    "retry": {
+      "en": "Try again",
+      "vi": "Thử lại"
+    },
+    "errorTitle": {
+      "en": "Something did not connect.",
+      "vi": "Chưa thể kết nối nội dung."
+    },
+    "errorBody": {
+      "en": "We could not load the website content. Please try again, or contact us directly.",
+      "vi": "Chưa tải được nội dung website. Vui lòng thử lại hoặc liên hệ trực tiếp."
+    },
+    "illustration": {
+      "en": "Supplied concept artwork",
+      "vi": "Hình ý tưởng được cung cấp"
+    },
+    "reference": {
+      "en": "Concept study",
+      "vi": "Nghiên cứu ý tưởng"
+    },
+    "details": {
+      "en": "View project",
+      "vi": "Xem dự án"
+    },
+    "download": {
+      "en": "Download checklist",
+      "vi": "Tải checklist"
+    },
+    "privacy": {
+      "en": "Privacy & content",
+      "vi": "Dữ liệu & nội dung"
+    },
+    "copyright": {
+      "en": "Better products. Brighter life.",
+      "vi": "Sản phẩm tốt hơn. Cuộc sống tươi sáng hơn."
+    },
+    "rights": {
+      "en": "All rights reserved.",
+      "vi": "Bảo lưu mọi quyền."
+    },
+    "services": {
+      "en": "Services",
+      "vi": "Dịch vụ"
+    },
+    "projects": {
+      "en": "Projects",
+      "vi": "Dự án"
+    },
+    "resources": {
+      "en": "Resources",
+      "vi": "Tài nguyên"
+    },
+    "notFoundTitle": {
+      "en": "An idea without a page.",
+      "vi": "Chưa có trang bạn tìm."
+    },
+    "notFoundBody": {
+      "en": "This page isn't here. Let's get you back to the work.",
+      "vi": "Trang này không tồn tại. Hãy quay lại các dự án."
+    },
+    "contact": {
+      "en": "Contact Tony",
+      "vi": "Liên hệ Tony"
+    },
+    "next": {
+      "en": "Next project",
+      "vi": "Dự án tiếp theo"
+    },
+    "previous": {
+      "en": "Previous project",
+      "vi": "Dự án trước"
+    },
+    "optional": {
+      "en": "Optional",
+      "vi": "Không bắt buộc"
+    }
+  },
+  "hero": {
+    "eyebrow": {
+      "en": "PRODUCT R&D & DESIGN",
+      "vi": "R&D & THIẾT KẾ SẢN PHẨM"
+    },
+    "line1": {
+      "en": "From concept",
+      "vi": "Từ ý tưởng"
+    },
+    "line2": {
+      "en": "to market.",
+      "vi": "đến thị trường."
+    },
+    "description": {
+      "en": "Thoughtful ideas. Practical engineering. Products made for the real world.",
+      "vi": "Ý tưởng có chiều sâu. Kỹ thuật thực tiễn. Sản phẩm cho cuộc sống."
+    },
+    "location": {
+      "en": "INNOVATIVE · PRACTICAL · MANUFACTURABLE",
+      "vi": "SÁNG TẠO · THỰC TIỄN · HƯỚNG SẢN XUẤT"
+    },
+    "panelTitle": {
+      "en": "Ideas into real products.",
+      "vi": "Biến ý tưởng thành sản phẩm."
+    },
+    "panelSub": {
+      "en": "SMART SPEAKER / CONCEPT STUDY",
+      "vi": "LOA THÔNG MINH / NGHIÊN CỨU Ý TƯỞNG"
+    },
+    "panelBottom": {
+      "en": "Product design, inside & out.",
+      "vi": "Thiết kế từ trong ra ngoài."
+    },
+    "pill": {
+      "en": "Designed for the real world",
+      "vi": "Thiết kế cho thực tế"
+    },
+    "feature1": {
+      "en": "Industrial design",
+      "vi": "Thiết kế công nghiệp"
+    },
+    "feature2": {
+      "en": "Prototyping",
+      "vi": "Làm mẫu thử"
+    },
+    "feature3": {
+      "en": "Manufacturing support",
+      "vi": "Hỗ trợ sản xuất"
+    },
+    "toolsLabel": {
+      "en": "CONNECTED PRODUCT DEVELOPMENT",
+      "vi": "PHÁT TRIỂN SẢN PHẨM ĐỒNG BỘ"
+    },
+    "contactLabel": {
+      "en": "Have something in mind?",
+      "vi": "Bạn đang có ý tưởng?"
+    },
+    "viewBanner": {
+      "en": "View full-size banner",
+      "vi": "Xem banner phóng to"
+    },
+    "bannerTitle": {
+      "en": "From concept to market — our services",
+      "vi": "Từ ý tưởng đến thị trường — dịch vụ"
+    },
+    "bannerDescription": {
+      "en": "The service banner supplied by Tony, with concept, industrial design, prototype and manufacturing stages.",
+      "vi": "Hình dịch vụ do Tony cung cấp, gồm ý tưởng, thiết kế công nghiệp, mẫu thử và sản xuất."
+    },
+    "stages": [
+      {
+        "title": {
+          "en": "Idea",
+          "vi": "Ý tưởng"
+        },
+        "subtitle": {
+          "en": "Concept & sketch",
+          "vi": "Ý tưởng & phác thảo"
+        }
+      },
+      {
+        "title": {
+          "en": "Industrial design",
+          "vi": "Thiết kế công nghiệp"
+        },
+        "subtitle": {
+          "en": "3D design & structure",
+          "vi": "Thiết kế 3D & kết cấu"
+        }
+      },
+      {
+        "title": {
+          "en": "Prototype",
+          "vi": "Mẫu thử"
+        },
+        "subtitle": {
+          "en": "Build & validation",
+          "vi": "Chế tạo & xác minh"
+        }
+      },
+      {
+        "title": {
+          "en": "Manufacturing",
+          "vi": "Sản xuất"
+        },
+        "subtitle": {
+          "en": "CM · SOP · quality control",
+          "vi": "Nhà sản xuất · SOP · chất lượng"
+        }
+      }
+    ],
+    "capabilities": [
+      {
+        "en": "Electronics & PCB integration",
+        "vi": "Tích hợp điện tử & PCB"
+      },
+      {
+        "en": "Plastic enclosure design",
+        "vi": "Thiết kế vỏ nhựa"
+      },
+      {
+        "en": "DFM & engineering support",
+        "vi": "DFM & hỗ trợ kỹ thuật"
+      },
+      {
+        "en": "Prototype & testing",
+        "vi": "Mẫu thử & thử nghiệm"
+      },
+      {
+        "en": "Manufacturing coordination",
+        "vi": "Phối hợp sản xuất"
+      },
+      {
+        "en": "Quality control & SOP",
+        "vi": "Kiểm soát chất lượng & SOP"
+      }
+    ],
+    "bannerZoom": {
+      "en": "Zoom in",
+      "vi": "Phóng to"
+    },
+    "bannerFit": {
+      "en": "Fit to screen",
+      "vi": "Vừa màn hình"
+    },
+    "bannerPanHint": {
+      "en": "Zoom in, then swipe or scroll to read every detail.",
+      "vi": "Phóng to, sau đó vuốt hoặc cuộn để đọc chi tiết."
+    }
+  },
+  "services": {
+    "eyebrow": {
+      "en": "01 / WHAT WE DO",
+      "vi": "01 / CHÚNG TÔI LÀM GÌ"
+    },
+    "title": {
+      "en": "From the first idea\nto what comes next.",
+      "vi": "Từ ý tưởng đầu tiên\nđến bước tiếp theo."
+    },
+    "description": {
+      "en": "Four connected stages. One considered product journey.",
+      "vi": "Bốn giai đoạn kết nối. Một hành trình sản phẩm."
+    },
+    "pageTitle": {
+      "en": "From a first sketch\nto the first build.",
+      "vi": "Từ phác thảo\nđến lần chế tạo đầu."
+    },
+    "pageDescription": {
+      "en": "Tony PRODUCT DESIGN — product R&D, industrial design, mechanical development, prototyping and manufacturing support. Ideas into real products.",
+      "vi": "Tony PRODUCT DESIGN — R&D sản phẩm, thiết kế công nghiệp, phát triển cơ khí, mẫu thử và hỗ trợ sản xuất. Biến ý tưởng thành sản phẩm."
+    },
+    "deliverables": {
+      "en": "What we can deliver",
+      "vi": "Đầu ra có thể bàn giao"
+    },
+    "steps": {
+      "en": "A considered approach",
+      "vi": "Cách tiếp cận có hệ thống"
+    },
+    "scopeNote": {
+      "en": "Exact deliverables, verification, timeline and commercial terms are agreed in the project scope before work begins.",
+      "vi": "Đầu ra cụ thể, cách xác minh, tiến độ và điều khoản được thống nhất trong phạm vi dự án trước khi triển khai."
+    },
+    "discuss": {
+      "en": "Discuss this service",
+      "vi": "Trao đổi về dịch vụ"
+    }
+  },
+  "work": {
+    "eyebrow": {
+      "en": "SELECTED WORK / DESIGN STUDIES",
+      "vi": "DỰ ÁN / NGHIÊN CỨU THIẾT KẾ"
+    },
+    "title": {
+      "en": "A concept.\nEvery perspective.",
+      "vi": "Một ý tưởng.\nNhiều góc nhìn."
+    },
+    "description": {
+      "en": "Form, structure, electronics and the thinking behind the build.",
+      "vi": "Hình dáng, kết cấu, điện tử và tư duy phía sau sản phẩm."
+    },
+    "pageTitle": {
+      "en": "Ideas, explored.",
+      "vi": "Khám phá ý tưởng."
+    },
+    "pageDescription": {
+      "en": "A closer look at the supplied smart-speaker concept through six design perspectives. Each tile is a study of the same concept, not a separate client project.",
+      "vi": "Sáu góc nhìn thiết kế của ý tưởng loa thông minh được cung cấp. Mỗi ô là một nghiên cứu của cùng ý tưởng, không phải một dự án khách hàng riêng."
+    },
+    "archiveNote": {
+      "en": "The current gallery presents six views of one supplied smart-speaker concept, not six separate client projects. No production, performance or client claims are implied.",
+      "vi": "Thư viện hiện thể hiện sáu góc nhìn của cùng một ý tưởng loa thông minh, không phải sáu dự án khách hàng riêng biệt. Không ngụ ý thành tích sản xuất, hiệu năng hay khách hàng."
+    },
+    "searchPlaceholder": {
+      "en": "Find a project…",
+      "vi": "Tìm dự án…"
+    },
+    "result": {
+      "en": "projects",
+      "vi": "dự án"
+    },
+    "emptyTitle": {
+      "en": "No matching studies.",
+      "vi": "Chưa có nghiên cứu phù hợp."
+    },
+    "emptyBody": {
+      "en": "Try a different keyword or explore all disciplines.",
+      "vi": "Thử từ khóa khác hoặc xem tất cả chuyên môn."
+    },
+    "reset": {
+      "en": "Clear filters",
+      "vi": "Xóa bộ lọc"
+    },
+    "categories": {
+      "all": {
+        "en": "All work",
+        "vi": "Tất cả"
+      },
+      "product": {
+        "en": "Product design",
+        "vi": "Thiết kế sản phẩm"
+      },
+      "mechanical": {
+        "en": "Structure",
+        "vi": "Kết cấu"
+      },
+      "electronics": {
+        "en": "Electronics",
+        "vi": "Điện tử"
+      },
+      "prototype": {
+        "en": "Prototype",
+        "vi": "Mẫu thử"
+      },
+      "manufacturing": {
+        "en": "Manufacturing",
+        "vi": "Sản xuất"
+      }
+    },
+    "overview": {
+      "en": "The overview",
+      "vi": "Tổng quan"
+    },
+    "focus": {
+      "en": "Design focus",
+      "vi": "Trọng tâm thiết kế"
+    },
+    "specs": {
+      "en": "Study details",
+      "vi": "Chi tiết nghiên cứu"
+    },
+    "notice": {
+      "en": "This study uses supplied Tony concept artwork. The descriptions outline design considerations, not verified test results, delivered client work or confirmed production status.",
+      "vi": "Nghiên cứu sử dụng hình ý tưởng Tony được cung cấp. Mô tả nêu định hướng thiết kế, không phải kết quả kiểm thử, dự án khách hàng đã bàn giao hay tình trạng sản xuất được xác nhận."
+    },
+    "similar": {
+      "en": "Building something similar?",
+      "vi": "Bạn đang phát triển sản phẩm tương tự?"
+    },
+    "galleryLabel": {
+      "en": "Smart speaker concept",
+      "vi": "Ý tưởng loa thông minh"
+    },
+    "tileLabel": {
+      "en": "Design study",
+      "vi": "Nghiên cứu thiết kế"
+    },
+    "gallery": {
+      "en": "More perspectives",
+      "vi": "Các góc nhìn khác"
+    }
+  },
+  "process": {
+    "eyebrow": {
+      "en": "03 / HOW WE WORK",
+      "vi": "03 / CÁCH CHÚNG TÔI LÀM VIỆC"
+    },
+    "title": {
+      "en": "One idea.\nA connected journey.",
+      "vi": "Một ý tưởng.\nHành trình đồng bộ."
+    },
+    "description": {
+      "en": "The service journey follows the four stages in Tony's supplied overview.",
+      "vi": "Hành trình dịch vụ theo bốn giai đoạn trong hình giới thiệu Tony."
+    },
+    "link": {
+      "en": "About the approach",
+      "vi": "Về cách làm việc"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Idea & concept",
+          "vi": "Ý tưởng & phác thảo"
+        },
+        "body": {
+          "en": "Turn a product opportunity into a focused brief, initial sketches and an agreed design direction.",
+          "vi": "Biến cơ hội sản phẩm thành yêu cầu rõ ràng, phác thảo ban đầu và hướng thiết kế thống nhất."
+        }
+      },
+      {
+        "title": {
+          "en": "Industrial design",
+          "vi": "Thiết kế công nghiệp"
+        },
+        "body": {
+          "en": "Connect industrial design, 3D structure and plastic enclosure development with the electronics inside.",
+          "vi": "Kết nối thiết kế công nghiệp, kết cấu 3D và phát triển vỏ nhựa với phần điện tử bên trong."
+        }
+      },
+      {
+        "title": {
+          "en": "Prototype & validation",
+          "vi": "Mẫu thử & xác minh"
+        },
+        "body": {
+          "en": "Move from design files to physical prototypes, structured feedback and the next design iteration.",
+          "vi": "Chuyển từ dữ liệu thiết kế sang mẫu vật lý, phản hồi có hệ thống và vòng cải tiến tiếp theo."
+        }
+      },
+      {
+        "title": {
+          "en": "Manufacturing support",
+          "vi": "Hỗ trợ sản xuất"
+        },
+        "body": {
+          "en": "Support DFM discussions, contract-manufacturer coordination, SOP preparation and quality-control planning.",
+          "vi": "Hỗ trợ trao đổi DFM, phối hợp nhà sản xuất, chuẩn bị SOP và lập kế hoạch kiểm soát chất lượng."
+        }
+      }
+    ]
+  },
+  "studio": {
+    "eyebrow": {
+      "en": "ABOUT TONY",
+      "vi": "VỀ TONY"
+    },
+    "title": {
+      "en": "Design that works.\nInside and out.",
+      "vi": "Thiết kế hiệu quả.\nTừ trong ra ngoài."
+    },
+    "description": {
+      "en": "Tony PRODUCT DESIGN connects creative exploration, practical engineering and the realities of making a product.",
+      "vi": "Tony PRODUCT DESIGN kết nối khám phá sáng tạo, kỹ thuật thực tiễn và thực tế chế tạo sản phẩm."
+    },
+    "body": {
+      "en": "From concept and sketch to industrial design, prototyping and manufacturing support, the goal is simple: turn a promising idea into a product with a clear path forward. The work brings together product form, plastic enclosures, electronics integration and the details of assembly.",
+      "vi": "Từ ý tưởng, phác thảo đến thiết kế công nghiệp, mẫu thử và hỗ trợ sản xuất, mục tiêu là biến ý tưởng thành sản phẩm có lộ trình rõ ràng. Công việc kết nối hình dáng, vỏ nhựa, tích hợp điện tử và chi tiết lắp ráp."
+    },
+    "valuesTitle": {
+      "en": "How we show up.",
+      "vi": "Cách chúng tôi đồng hành."
+    },
+    "values": [
+      {
+        "title": {
+          "en": "Innovative",
+          "vi": "Sáng tạo"
+        },
+        "body": {
+          "en": "Explore the possibilities while keeping the product's purpose in focus.",
+          "vi": "Khám phá khả năng mới, luôn bám sát mục đích sản phẩm."
+        }
+      },
+      {
+        "title": {
+          "en": "Practical",
+          "vi": "Thực tiễn"
+        },
+        "body": {
+          "en": "Connect the form with the structure, electronics and everyday interaction.",
+          "vi": "Kết nối hình dáng với kết cấu, điện tử và tương tác thường ngày."
+        }
+      },
+      {
+        "title": {
+          "en": "Manufacturable",
+          "vi": "Hướng sản xuất"
+        },
+        "body": {
+          "en": "Consider assembly, process and the handoff from the start.",
+          "vi": "Cân nhắc lắp ráp, quy trình và bàn giao ngay từ đầu."
+        }
+      }
+    ],
+    "expertiseTitle": {
+      "en": "Connected capabilities.",
+      "vi": "Năng lực kết nối."
+    },
+    "expertise": [
+      "Industrial design",
+      "3D & structure design",
+      "Plastic enclosure design",
+      "Electronics & PCB integration",
+      "DFM & engineering support",
+      "Prototype & validation",
+      "Manufacturing coordination",
+      "Quality control & SOP"
+    ],
+    "expertiseNote": {
+      "en": "Capabilities reflect the supplied Tony service overview. Specific deliverables and validation are agreed for each engagement.",
+      "vi": "Năng lực theo hình giới thiệu dịch vụ Tony. Đầu ra cụ thể và cách xác minh được thống nhất cho từng công việc."
+    }
+  },
+  "faq": {
+    "eyebrow": {
+      "en": "A FEW GOOD QUESTIONS",
+      "vi": "NHỮNG CÂU HỎI THƯỜNG GẶP"
+    },
+    "title": {
+      "en": "Before we get started.",
+      "vi": "Trước khi bắt đầu."
+    },
+    "items": [
+      {
+        "q": {
+          "en": "Can we work together on just one part of a project?",
+          "vi": "Có thể hợp tác chỉ một phần của dự án không?"
+        },
+        "a": {
+          "en": "Yes. Start with a focused concept, industrial design, integration or prototype requirement. The scope and deliverables are agreed before work begins.",
+          "vi": "Có. Bắt đầu từ yêu cầu cụ thể về ý tưởng, thiết kế công nghiệp, tích hợp hoặc mẫu thử. Phạm vi và đầu ra được thống nhất trước khi triển khai."
+        }
+      },
+      {
+        "q": {
+          "en": "What should I include in a project brief?",
+          "vi": "Tôi nên chuẩn bị gì trong yêu cầu dự án?"
+        },
+        "a": {
+          "en": "Describe the product, its main interfaces, mechanical constraints, current design status, expected deliverables and your target schedule. Please do not include confidential files in the initial public form.",
+          "vi": "Mô tả sản phẩm, giao tiếp chính, ràng buộc cơ khí, trạng thái thiết kế, đầu ra mong muốn và tiến độ dự kiến. Không gửi tài liệu bảo mật trong form liên hệ ban đầu."
+        }
+      },
+      {
+        "q": {
+          "en": "Can you work with our existing design tools and files?",
+          "vi": "Có thể làm việc với công cụ và dữ liệu hiện có của chúng tôi không?"
+        },
+        "a": {
+          "en": "Share the available file formats, source tools and versions. Compatibility and the agreed handoff formats are reviewed before starting.",
+          "vi": "Hãy cung cấp định dạng file, công cụ nguồn và phiên bản. Khả năng tương thích và định dạng bàn giao sẽ được rà soát trước khi bắt đầu."
+        }
+      },
+      {
+        "q": {
+          "en": "How do quotes and timelines work?",
+          "vi": "Báo giá và tiến độ được xác định như thế nào?"
+        },
+        "a": {
+          "en": "They depend on scope, available inputs, complexity and external manufacturing requirements. The website does not calculate a binding price or promise a lead time; we review the brief with you first.",
+          "vi": "Báo giá và tiến độ phụ thuộc phạm vi, dữ liệu đầu vào, độ phức tạp và yêu cầu sản xuất bên ngoài. Website không tự tính giá ràng buộc hoặc cam kết thời gian; yêu cầu sẽ được rà soát cùng bạn trước."
+        }
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": {
+      "en": "LET'S BUILD WHAT'S NEXT",
+      "vi": "CÙNG TẠO ĐIỀU TIẾP THEO"
+    },
+    "title": {
+      "en": "Your next idea\nstarts with a conversation.",
+      "vi": "Ý tưởng tiếp theo\nbắt đầu từ trao đổi."
+    },
+    "description": {
+      "en": "Share what you are thinking about. Let's find the right next step for your product.",
+      "vi": "Chia sẻ điều bạn đang ấp ủ. Cùng tìm bước đi phù hợp cho sản phẩm."
+    }
+  },
+  "insights": {
+    "eyebrow": {
+      "en": "THE ENGINEERING NOTEBOOK",
+      "vi": "SỔ TAY KỸ THUẬT"
+    },
+    "title": {
+      "en": "A clearer path\nto your next build.",
+      "vi": "Rõ ràng hơn\ncho lần chế tạo tiếp theo."
+    },
+    "description": {
+      "en": "Practical planning notes and downloadable checklists to make the first conversation more useful.",
+      "vi": "Ghi chú lập kế hoạch và checklist có thể tải để buổi trao đổi đầu tiên hiệu quả hơn."
+    },
+    "note": {
+      "en": "General planning resources, not a substitute for project-specific engineering review.",
+      "vi": "Tài liệu lập kế hoạch chung, không thay thế rà soát kỹ thuật cho từng dự án."
+    },
+    "downloadTitle": {
+      "en": "Keep the checklist.",
+      "vi": "Lưu lại checklist."
+    },
+    "downloadBody": {
+      "en": "A plain-text Markdown file you can edit, share and use with your team.",
+      "vi": "File Markdown dạng văn bản để chỉnh sửa, chia sẻ và sử dụng cùng đội ngũ."
+    },
+    "back": {
+      "en": "All resources",
+      "vi": "Tất cả tài nguyên"
+    }
+  },
+  "contact": {
+    "eyebrow": {
+      "en": "LET'S CONNECT",
+      "vi": "KẾT NỐI CÙNG TONY"
+    },
+    "title": {
+      "en": "Let's build\nwhat's next.",
+      "vi": "Cùng tạo nên\nđiều tiếp theo."
+    },
+    "description": {
+      "en": "Have a product in mind? Share the idea, the stage you're at and what you need help with.",
+      "vi": "Bạn đang ấp ủ sản phẩm? Hãy chia sẻ ý tưởng, giai đoạn hiện tại và điều cần hỗ trợ."
+    },
+    "emailLabel": {
+      "en": "WRITE TO US",
+      "vi": "EMAIL"
+    },
+    "phoneLabel": {
+      "en": "WhatsApp / phone",
+      "vi": "WhatsApp / điện thoại"
+    },
+    "locationLabel": {
+      "en": "Address",
+      "vi": "Địa chỉ"
+    },
+    "formTitle": {
+      "en": "A good project starts with a conversation.",
+      "vi": "Dự án tốt bắt đầu từ một cuộc trao đổi."
+    },
+    "formDescription": {
+      "en": "Tell us a little about yourself and your idea. Fields marked * are required.",
+      "vi": "Giới thiệu về bạn và ý tưởng của bạn. Trường có dấu * là bắt buộc."
+    },
+    "name": {
+      "en": "Your name",
+      "vi": "Họ và tên"
+    },
+    "email": {
+      "en": "Work email",
+      "vi": "Email công việc"
+    },
+    "company": {
+      "en": "Company",
+      "vi": "Công ty"
+    },
+    "service": {
+      "en": "What do you need?",
+      "vi": "Bạn cần hỗ trợ gì?"
+    },
+    "timeline": {
+      "en": "Target timeline",
+      "vi": "Tiến độ dự kiến"
+    },
+    "message": {
+      "en": "A little about your project",
+      "vi": "Mô tả dự án"
+    },
+    "namePlaceholder": {
+      "en": "Your full name",
+      "vi": "Họ tên đầy đủ"
+    },
+    "emailPlaceholder": {
+      "en": "you@company.com",
+      "vi": "ban@congty.com"
+    },
+    "companyPlaceholder": {
+      "en": "Your company or team",
+      "vi": "Công ty hoặc đội ngũ"
+    },
+    "messagePlaceholder": {
+      "en": "What are you building? Where are you now, and what would you like help with?",
+      "vi": "Bạn đang phát triển gì? Dự án đang ở giai đoạn nào và cần hỗ trợ những gì?"
+    },
+    "servicePlaceholder": {
+      "en": "Let's find the right fit",
+      "vi": "Cùng xác định nhu cầu"
+    },
+    "timelines": [
+      {
+        "en": "To be discussed",
+        "vi": "Trao đổi thêm"
+      },
+      {
+        "en": "Within 1 month",
+        "vi": "Trong 1 tháng"
+      },
+      {
+        "en": "1–3 months",
+        "vi": "1–3 tháng"
+      },
+      {
+        "en": "3–6 months",
+        "vi": "3–6 tháng"
+      },
+      {
+        "en": "Exploring an idea",
+        "vi": "Đang tìm hiểu ý tưởng"
+      }
+    ],
+    "consent": {
+      "en": "I agree to share these details for responding to my enquiry.",
+      "vi": "Tôi đồng ý chia sẻ thông tin này để nhận phản hồi về yêu cầu."
+    },
+    "submit": {
+      "en": "Prepare my enquiry",
+      "vi": "Chuẩn bị yêu cầu"
+    },
+    "submitEndpoint": {
+      "en": "Send enquiry",
+      "vi": "Gửi yêu cầu"
+    },
+    "sending": {
+      "en": "Submitting…",
+      "vi": "Đang gửi…"
+    },
+    "privacyNote": {
+      "en": "No database. In email mode, this form prepares a draft on your device; it does not send automatically. Please do not include confidential information.",
+      "vi": "Không có database. Ở chế độ email, form chuẩn bị bản nháp trên thiết bị, không tự gửi. Vui lòng không nhập thông tin bảo mật."
+    },
+    "endpointNote": {
+      "en": "This enquiry will be sent to the configured external form provider. Do not include confidential information.",
+      "vi": "Yêu cầu sẽ được gửi đến nhà cung cấp form bên ngoài đã cấu hình. Không nhập thông tin bảo mật."
+    },
+    "prepared": {
+      "en": "Your brief is ready. It has not been sent.",
+      "vi": "Yêu cầu đã sẵn sàng. Chưa được gửi."
+    },
+    "preparedBody": {
+      "en": "Open your email app to review and send it, or copy / download the text and email it yourself.",
+      "vi": "Mở ứng dụng email để kiểm tra và gửi, hoặc sao chép / tải nội dung để tự gửi qua email."
+    },
+    "openEmail": {
+      "en": "Open email app",
+      "vi": "Mở ứng dụng email"
+    },
+    "copy": {
+      "en": "Copy enquiry",
+      "vi": "Sao chép nội dung"
+    },
+    "download": {
+      "en": "Download .txt",
+      "vi": "Tải file .txt"
+    },
+    "edit": {
+      "en": "Edit enquiry",
+      "vi": "Chỉnh sửa yêu cầu"
+    },
+    "copied": {
+      "en": "Copied to clipboard.",
+      "vi": "Đã sao chép."
+    },
+    "copyError": {
+      "en": "Clipboard unavailable. Select the text below or download the .txt file.",
+      "vi": "Không truy cập được bộ nhớ tạm. Chọn nội dung bên dưới hoặc tải file .txt."
+    },
+    "sent": {
+      "en": "Your enquiry was accepted by the form provider.",
+      "vi": "Nhà cung cấp form đã tiếp nhận yêu cầu."
+    },
+    "sentBody": {
+      "en": "This confirms submission, not email delivery. Please email us directly if you need another way to get in touch.",
+      "vi": "Đây là xác nhận tiếp nhận, không phải xác nhận email đã đến. Bạn có thể gửi email trực tiếp để liên hệ qua cách khác."
+    },
+    "sendError": {
+      "en": "We couldn't submit this enquiry. Your details are still here. Try again or prepare an email instead.",
+      "vi": "Chưa gửi được yêu cầu. Thông tin vẫn được giữ. Hãy thử lại hoặc chuẩn bị email thay thế."
+    },
+    "fallback": {
+      "en": "Prepare an email instead",
+      "vi": "Chuyển sang chuẩn bị email"
+    },
+    "validation": {
+      "name": {
+        "en": "Please enter 2–100 characters.",
+        "vi": "Nhập từ 2–100 ký tự."
+      },
+      "email": {
+        "en": "Please enter a valid email address.",
+        "vi": "Nhập địa chỉ email hợp lệ."
+      },
+      "company": {
+        "en": "Use no more than 150 characters.",
+        "vi": "Tối đa 150 ký tự."
+      },
+      "message": {
+        "en": "Please enter 20–5,000 characters.",
+        "vi": "Nhập từ 20–5.000 ký tự."
+      },
+      "consent": {
+        "en": "Please confirm your consent.",
+        "vi": "Vui lòng xác nhận đồng ý."
+      },
+      "service": {
+        "en": "Choose an available service.",
+        "vi": "Chọn dịch vụ có trong danh sách."
+      },
+      "timeline": {
+        "en": "Choose an available timeline.",
+        "vi": "Chọn tiến độ có trong danh sách."
+      }
+    },
+    "review": {
+      "en": "Review your enquiry",
+      "vi": "Kiểm tra yêu cầu"
+    },
+    "required": {
+      "en": "Please review the highlighted fields.",
+      "vi": "Vui lòng kiểm tra các trường được đánh dấu."
+    },
+    "longNote": {
+      "en": "This enquiry is too long for a reliable email link. Copy or download it, then paste it into the email draft.",
+      "vi": "Yêu cầu dài vượt mức phù hợp cho liên kết email. Hãy sao chép hoặc tải nội dung rồi dán vào bản nháp email."
+    },
+    "longEmailBody": {
+      "en": "Please paste the enquiry text copied or downloaded from the Tony PRODUCT DESIGN website below.\n\n",
+      "vi": "Vui lòng dán nội dung yêu cầu đã sao chép hoặc tải từ website Tony PRODUCT DESIGN bên dưới.\n\n"
+    }
+  },
+  "privacy": {
+    "eyebrow": {
+      "en": "A NOTE ON TRANSPARENCY",
+      "vi": "MINH BẠCH THÔNG TIN"
+    },
+    "title": {
+      "en": "Your data.\nYour choice.",
+      "vi": "Dữ liệu của bạn.\nLựa chọn của bạn."
+    },
+    "sections": [
+      {
+        "title": {
+          "en": "What this website stores",
+          "vi": "Website lưu những gì"
+        },
+        "body": {
+          "en": "This website has no database, user accounts or analytics configured by default. Your selected language and theme are saved in local storage on your device. Enquiry form fields remain in page memory only and are not saved by the application when you leave or reload the page.",
+          "vi": "Website không có database, tài khoản hay analytics được cấu hình mặc định. Ngôn ngữ và giao diện được lưu trong local storage trên thiết bị. Nội dung form chỉ nằm trong bộ nhớ trang; ứng dụng không lưu khi bạn rời hoặc tải lại trang."
+        }
+      },
+      {
+        "title": {
+          "en": "What happens to an enquiry",
+          "vi": "Yêu cầu liên hệ được xử lý thế nào"
+        },
+        "body": {
+          "en": "In the default email mode, preparing a brief does not transmit it. Choosing Open email app passes the draft to your email application. You must review and send it there. If the owner enables an external endpoint, submissions are sent to that configured form provider; its own terms and privacy practices apply.",
+          "vi": "Ở chế độ email mặc định, chuẩn bị yêu cầu không truyền dữ liệu đi. Chọn Mở ứng dụng email sẽ chuyển bản nháp sang ứng dụng email; bạn phải kiểm tra và gửi tại đó. Nếu chủ sở hữu bật endpoint bên ngoài, yêu cầu sẽ gửi đến nhà cung cấp form đã cấu hình và chịu điều khoản, chính sách riêng của họ."
+        }
+      },
+      {
+        "title": {
+          "en": "Hosting and third parties",
+          "vi": "Hosting và bên thứ ba"
+        },
+        "body": {
+          "en": "The hosting provider may process ordinary access logs. No advertising pixels, embedded maps or externally hosted fonts are included. Product images can be hosted locally or at HTTPS URLs chosen by the website owner. External images load when shown and may disclose your IP address and request metadata to their host; these image requests use no-referrer. Other external links open only when you choose them.",
+          "vi": "Nhà cung cấp hosting có thể ghi nhật ký truy cập. Website không tích hợp pixel quảng cáo, bản đồ nhúng hay font tải từ bên ngoài. Ảnh sản phẩm có thể lưu cục bộ hoặc dùng URL HTTPS do chủ website chọn. Khi ảnh bên ngoài hiển thị, máy chủ ảnh có thể nhận địa chỉ IP và thông tin yêu cầu; các ảnh này dùng chế độ no-referrer. Các liên kết ngoài khác chỉ mở khi bạn chọn."
+        }
+      },
+      {
+        "title": {
+          "en": "Portfolio content and illustrations",
+          "vi": "Nội dung dự án và hình minh họa"
+        },
+        "body": {
+          "en": "Brand artwork and contact details come from the Tony materials supplied for this website. The gallery shows different views of one smart-speaker concept, not six independent client projects. Product outcomes, client names and production status have not been asserted. Instagram, Facebook and street address remain unconfigured until provided by the owner.",
+          "vi": "Hình thương hiệu và liên hệ lấy từ tài liệu Tony được cung cấp. Thư viện thể hiện nhiều góc nhìn của một ý tưởng loa thông minh, không phải sáu dự án khách hàng riêng. Không khẳng định kết quả sản phẩm, tên khách hàng hay tình trạng sản xuất. Instagram, Facebook và địa chỉ cụ thể chờ chủ sở hữu cung cấp."
+        }
+      }
+    ],
+    "contact": {
+      "en": "For questions about a submitted enquiry, contact",
+      "vi": "Có câu hỏi về yêu cầu đã gửi, vui lòng liên hệ"
+    },
+    "clear": {
+      "en": "Clear language & theme preferences",
+      "vi": "Xóa tùy chọn ngôn ngữ & giao diện"
+    },
+    "cleared": {
+      "en": "Preferences cleared on this device.",
+      "vi": "Đã xóa tùy chọn trên thiết bị này."
+    }
+  },
+  "intro": {
+    "eyebrow": {
+      "en": "DESIGN WITH PURPOSE",
+      "vi": "THIẾT KẾ CÓ MỤC ĐÍCH"
+    },
+    "title": {
+      "en": "We turn ideas into\nreal products.",
+      "vi": "Biến ý tưởng thành\nsản phẩm thực tế."
+    },
+    "body": {
+      "en": "Good design connects how a product looks, how it works and how it is made. Tony PRODUCT DESIGN brings those decisions together — from the first sketch and 3D structure to prototypes and manufacturing support.",
+      "vi": "Thiết kế tốt kết nối hình dáng, công năng và cách sản phẩm được tạo ra. Tony PRODUCT DESIGN đồng hành xuyên suốt — từ phác thảo, kết cấu 3D đến mẫu thử và hỗ trợ sản xuất."
+    },
+    "link": {
+      "en": "A little about our approach",
+      "vi": "Tìm hiểu cách chúng tôi làm việc"
+    }
+  },
+  "footer": {
+    "eyebrow": {
+      "en": "HAVE A PRODUCT IN MIND?",
+      "vi": "BẠN ĐANG ẤP Ủ SẢN PHẨM?"
+    },
+    "title": {
+      "en": "Let's make\nsomething real.",
+      "vi": "Cùng biến ý tưởng\nthành sản phẩm."
+    },
+    "email": {
+      "en": "EMAIL",
+      "vi": "EMAIL"
+    },
+    "whatsapp": {
+      "en": "WHATSAPP",
+      "vi": "WHATSAPP"
+    },
+    "address": {
+      "en": "ADDRESS",
+      "vi": "ĐỊA CHỈ"
+    },
+    "social": {
+      "en": "FOLLOW ALONG",
+      "vi": "KẾT NỐI"
+    },
+    "unconfigured": {
+      "en": "Link not provided yet",
+      "vi": "Chưa có đường dẫn"
+    },
+    "contactLink": {
+      "en": "Share your project",
+      "vi": "Chia sẻ dự án"
+    },
+    "backTop": {
+      "en": "Back to top",
+      "vi": "Về đầu trang"
+    },
+    "signature": {
+      "en": "INNOVATIVE. PRACTICAL. MANUFACTURABLE.",
+      "vi": "SÁNG TẠO. THỰC TIỄN. HƯỚNG SẢN XUẤT."
+    }
+  }
+}

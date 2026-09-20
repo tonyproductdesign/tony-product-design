@@ -1,0 +1,3 @@
+# Netlify / Cloudflare Pages: known pre-rendered files are served first.
+# Unknown URLs receive an actual 404 instead of a misleading HTTP 200.
+/* /404.html 404

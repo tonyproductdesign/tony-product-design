@@ -1,0 +1,2775 @@
+{
+  "type": "object",
+  "properties": {
+    "site": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "tagline": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string"
+            },
+            "vi": {
+              "type": "string"
+            }
+          }
+        },
+        "description": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string"
+            },
+            "vi": {
+              "type": "string"
+            }
+          }
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string"
+            },
+            "vi": {
+              "type": "string"
+            }
+          }
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "phoneHref": {
+          "type": "string"
+        },
+        "defaultLocale": {
+          "type": "string"
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "contactMode": {
+          "type": "string"
+        },
+        "contentNotice": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string"
+            },
+            "vi": {
+              "type": "string"
+            }
+          }
+        },
+        "contactVerification": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string"
+            },
+            "vi": {
+              "type": "string"
+            }
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "properties": {
+            "source": {
+              "type": "string"
+            },
+            "reviewed": {
+              "type": "boolean"
+            },
+            "unverifiedLegacyMetrics": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        },
+        "navigation": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "label": {
+                "type": "object",
+                "properties": {
+                  "en": {
+                    "type": "string"
+                  },
+                  "vi": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "copyrightYear": {
+          "type": "number"
+        },
+        "wordmark": {
+          "type": "string"
+        },
+        "descriptor": {
+          "type": "string"
+        },
+        "address": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string"
+            },
+            "vi": {
+              "type": "string"
+            }
+          }
+        },
+        "secondaryEmail": {
+          "type": "string"
+        },
+        "whatsapp": {
+          "type": "string"
+        },
+        "wechat": {
+          "type": "string"
+        },
+        "instagram": {
+          "type": "string"
+        },
+        "facebook": {
+          "type": "string"
+        },
+        "contactNotice": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string"
+            },
+            "vi": {
+              "type": "string"
+            }
+          }
+        },
+        "hero": {
+          "type": "object",
+          "properties": {
+            "image": {
+              "type": "string"
+            },
+            "alt": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "banner": {
+              "type": "string"
+            },
+            "mobileBanner": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "title": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "headline": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "summary": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "deliverables": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "service": {
+            "type": "string"
+          },
+          "title": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "subtitle": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "summary": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "image": {
+            "type": "string"
+          },
+          "imageAlt": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "specs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "value": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "overview": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "focus": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "featured": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          },
+          "gallery": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "image": {
+                  "type": "string"
+                },
+                "alt": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "imagePosition": {
+            "type": "string"
+          },
+          "imageFit": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "category": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "title": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "summary": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "readTime": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          },
+          "download": {
+            "type": "string"
+          },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "heading": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "body": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "copy": {
+      "type": "object",
+      "properties": {
+        "common": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "explore": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "viewAll": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "learnMore": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "back": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "home": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "read": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "all": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "search": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "searchHint": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "searchEmpty": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "close": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "menu": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "theme": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "language": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "skip": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "loading": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "retry": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "errorTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "errorBody": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "illustration": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "reference": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "details": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "download": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "privacy": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "copyright": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "rights": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "services": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "projects": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "resources": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "notFoundTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "notFoundBody": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "contact": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "next": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "previous": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "optional": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "hero": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "line1": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "line2": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "panelTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "panelSub": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "panelBottom": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "pill": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "feature1": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "feature2": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "feature3": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "toolsLabel": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "contactLabel": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "viewBanner": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "bannerTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "bannerDescription": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "stages": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "subtitle": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "capabilities": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "en": {
+                    "type": "string"
+                  },
+                  "vi": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "bannerZoom": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "bannerFit": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "bannerPanHint": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "services": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "pageTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "pageDescription": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "deliverables": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "steps": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "scopeNote": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "discuss": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "work": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "pageTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "pageDescription": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "archiveNote": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "searchPlaceholder": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "result": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "emptyTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "emptyBody": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "reset": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "categories": {
+              "type": "object",
+              "properties": {
+                "all": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "product": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "mechanical": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "electronics": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "prototype": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "manufacturing": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "overview": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "focus": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "specs": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "notice": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "similar": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "galleryLabel": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "tileLabel": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "gallery": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "process": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "steps": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "body": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "studio": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "body": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "valuesTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "values": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "body": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "expertiseTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "expertise": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "expertiseNote": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "faq": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "q": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "a": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "cta": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "insights": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "note": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "downloadTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "downloadBody": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "back": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "contact": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "emailLabel": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "phoneLabel": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "locationLabel": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "formTitle": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "formDescription": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "name": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "email": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "company": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "service": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "timeline": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "namePlaceholder": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "emailPlaceholder": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "companyPlaceholder": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "messagePlaceholder": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "servicePlaceholder": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "timelines": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "en": {
+                    "type": "string"
+                  },
+                  "vi": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "consent": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "submit": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "submitEndpoint": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "sending": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "privacyNote": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "endpointNote": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "prepared": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "preparedBody": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "openEmail": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "copy": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "download": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "edit": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "copied": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "copyError": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "sent": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "sentBody": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "sendError": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "fallback": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "validation": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "email": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "company": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "message": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "consent": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "service": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "timeline": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string"
+                    },
+                    "vi": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "review": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "longNote": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "longEmailBody": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "privacy": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "sections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "body": {
+                    "type": "object",
+                    "properties": {
+                      "en": {
+                        "type": "string"
+                      },
+                      "vi": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "contact": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "clear": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "cleared": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "intro": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "body": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "footer": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "email": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "whatsapp": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "address": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "social": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "unconfigured": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "contactLink": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "backTop": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            },
+            "signature": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "vi": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

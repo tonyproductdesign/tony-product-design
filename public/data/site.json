@@ -1,0 +1,89 @@
+{
+  "name": "Tony PRODUCT DESIGN",
+  "tagline": {
+    "en": "From concept to market.",
+    "vi": "Từ ý tưởng đến thị trường."
+  },
+  "description": {
+    "en": "Tony PRODUCT DESIGN — product R&D, industrial design, mechanical development, prototyping and manufacturing support. Ideas into real products.",
+    "vi": "Tony PRODUCT DESIGN — R&D sản phẩm, thiết kế công nghiệp, phát triển cơ khí, mẫu thử và hỗ trợ sản xuất. Biến ý tưởng thành sản phẩm."
+  },
+  "location": {
+    "en": "Address available on request",
+    "vi": "Liên hệ để nhận địa chỉ"
+  },
+  "email": "brian@tonyproductdesign.com",
+  "phone": "+84 918 134350",
+  "phoneHref": "+84918134350",
+  "defaultLocale": "en",
+  "tools": [
+    "Concept & sketch",
+    "3D & structure",
+    "Electronics integration",
+    "DFM",
+    "SOP & quality"
+  ],
+  "contactMode": "mailto",
+  "contentNotice": {
+    "en": "The current gallery presents six views of one supplied smart-speaker concept, not six separate client projects. No production, performance or client claims are implied.",
+    "vi": "Thư viện hiện thể hiện sáu góc nhìn của cùng một ý tưởng loa thông minh, không phải sáu dự án khách hàng riêng biệt. Không ngụ ý thành tích sản xuất, hiệu năng hay khách hàng."
+  },
+  "contactVerification": {
+    "en": "Email and WhatsApp follow the supplied Tony brand card. Street address and social profiles have not been provided.",
+    "vi": "Email và WhatsApp theo danh thiếp Tony được cung cấp. Chưa có địa chỉ cụ thể và đường dẫn mạng xã hội."
+  },
+  "provenance": {
+    "source": "Tony services banner and Tony brand card supplied by the owner in this conversation",
+    "reviewed": false,
+    "unverifiedLegacyMetrics": [],
+    "note": "One smart-speaker concept is used to illustrate design stages. Scope, address and actual project outcomes require owner review. No legacy business contact or project claims are retained."
+  },
+  "navigation": [
+    {
+      "path": "projects",
+      "label": {
+        "en": "Work",
+        "vi": "Dự án"
+      }
+    },
+    {
+      "path": "studio",
+      "label": {
+        "en": "Approach",
+        "vi": "Cách làm"
+      }
+    },
+    {
+      "path": "contact",
+      "label": {
+        "en": "Contact",
+        "vi": "Liên hệ"
+      }
+    }
+  ],
+  "copyrightYear": 2026,
+  "wordmark": "Tony",
+  "descriptor": "PRODUCT DESIGN",
+  "address": {
+    "en": "",
+    "vi": ""
+  },
+  "secondaryEmail": "brian.tony.141@gmail.com",
+  "whatsapp": "https://wa.me/84918134350",
+  "wechat": "brian_141",
+  "instagram": "",
+  "facebook": "",
+  "contactNotice": {
+    "en": "Email and WhatsApp are taken from the supplied Tony brand materials.",
+    "vi": "Email và WhatsApp theo bộ hình thương hiệu Tony được cung cấp."
+  },
+  "hero": {
+    "image": "assets/products/tony-speaker-hero.webp",
+    "alt": {
+      "en": "Smart-speaker concept from Tony's supplied brand artwork",
+      "vi": "Ý tưởng loa thông minh từ hình thương hiệu Tony cung cấp"
+    },
+    "banner": "images/tony-services-banner.webp",
+    "mobileBanner": "images/tony-brand-card.webp"
+  }
+}
