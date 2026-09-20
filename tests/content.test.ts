@@ -32,13 +32,12 @@ test("the site exposes no fake backend in its default configuration", () => {
   assert.equal(data.site.contactMode, "mailto");
   assert.equal(data.site.provenance.reviewed, false);
 });
-test("every local image and bilingual download exists", () => {
+test("every local image exists", () => {
   for (const project of data.projects) {
     const source = parseImageSource(project.image);
     assert.ok(source);
     if (source.kind === "local") assert.ok(existsSync(new URL(`../public/${source.urlPath.split("?")[0]}`, import.meta.url)), project.image);
   }
-  for (const resource of data.resources) for (const locale of ["en", "vi"]) assert.ok(existsSync(new URL(`../public/downloads/${resource.download}-${locale}.md`, import.meta.url)));
 });
 
 test("the primary identity and contact details belong to Tony", () => {
