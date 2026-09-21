@@ -134,11 +134,13 @@ test("contact validates and creates an unsent email draft and download", async (
   expect((await download).suggestedFilename()).toBe("tony-product-design-enquiry.txt");
 });
 
-test("resource download links and unknown routes show the custom 404", async ({ page }) => {
+test("resource downloads exist and unknown routes show the custom 404", async ({ page }) => {
   await page.goto("/en/insights/better-hardware-brief");
   const link = page.getByRole("link", { name: "Download checklist" });
   const href = await link.getAttribute("href");
   expect(href).toMatch(/project-brief-en\.md$/);
+  const response = await page.request.get(href!);
+  expect(response.ok()).toBeTruthy();
   await page.goto("/en/does-not-exist");
   await expect(page.getByRole("heading", { name: "An idea without a page." })).toBeVisible();
 });
