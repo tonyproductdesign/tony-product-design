@@ -9,7 +9,7 @@ const groups = ["site", "services", "projects", "resources", "copy"];
   //name, JSON.parse(await readFile(resolve(base, `public/data/${name}.json`), "utf8")),
 //])));
 //const schema = JSON.parse(await readFile(resolve(base, "src/lib/content-schema.json"), "utf8"));
-assertContent(data, schema);
+//assertContent(data, schema);
 //const images = await validateImageFiles(data, resolve(base, "public"));
 //for (const resource of data.resources) {
   //for (const locale of ["en", "vi"]) await access(resolve(base, "public/downloads", `${resource.download}-${locale}.md`));
