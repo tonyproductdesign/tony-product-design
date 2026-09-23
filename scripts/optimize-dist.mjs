@@ -3,12 +3,12 @@ import { join } from "node:path";
 
 const dist = join(import.meta.dirname, "..", "dist");
 const duplicateImages = [
-  "tony-electronics.webp",
-  "tony-exploded.webp",
-  "tony-manufacturing.webp",
+  "structure-design.webp",
+  "industrial-design.png",
+  "mass-production.jpg",
   "tony-product.webp",
-  "tony-prototype.webp",
-  "tony-sketch.webp",
+  "prototype.webp",
+  "hand-sketch.webp",
   "tony-speaker-hero.webp",
 ];
 
