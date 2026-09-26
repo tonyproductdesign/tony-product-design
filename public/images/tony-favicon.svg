@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tonyGradient" x1="80" y1="180" x2="430" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16C5D8"/>
+      <stop offset="0.5" stop-color="#55D5A7"/>
+      <stop offset="1" stop-color="#FFE43B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tony T. favicon: transparent background -->
+  <path fill="url(#tonyGradient)" d="M86 112h340c18.8 0 34 15.2 34 34v28c0 18.8-15.2 34-34 34H306v170c0 18.8-15.2 34-34 34h-32c-18.8 0-34-15.2-34-34V208H86c-18.8 0-34-15.2-34-34v-28c0-18.8 15.2-34 34-34Z"/>
+  <circle cx="398" cy="392" r="48" fill="url(#tonyGradient)"/>
+</svg>
