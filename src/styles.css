@@ -814,10 +814,10 @@ h1,h2,h3 {font-weight:500}
 button:disabled {cursor:not-allowed;opacity:.5}
 .site-header {background:color-mix(in srgb,var(--background) 97%,transparent);border-color:var(--border);backdrop-filter:blur(12px)}
 .nav-row {min-height:91px;gap:28px}
-.tony-brand {display:flex;flex-direction:column;align-items:flex-start;gap:4px;color:var(--foreground)}
-.tony-wordmark {position:relative;font-size:43px;line-height:.92;letter-spacing:-.065em;font-weight:800;display:flex;align-items:baseline}
-.tony-wordmark i {display:inline-block;width:7px;height:7px;background:#45cdbb;border-radius:50%;margin-left:3px}
-.tony-descriptor {font-size:8px;font-weight:600;letter-spacing:.25em;padding-left:2px;line-height:1.6}
+.tony-brand {display:flex;flex-direction:column;align-items:flex-start;gap:0px;color:var(--foreground);overflow:visible;height:auto;min-height:0;color:#006D77;}
+.tony-wordmark {position:relative;font-size:43px;line-height:1.05;letter-spacing:-.065em;font-weight:800;font-family:"Arial Rounded MT Bold",Arial,sans-serif;display:flex;align-items:baseline;min-height:50px;height:auto;padding-bottom:6px;box-sizing:border-box;overflow:visible;background:linear-gradient(90deg,#19C5E8 0%,#38C9A3 45%,#BFD84A 75%,#F2D34A 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.tony-wordmark i {display:inline-block;width:1px;height:1px;background:transparent;border-radius:0;margin-left:3px}
+.tony-descriptor {font-size:8px;font-weight:600;letter-spacing:.25em;padding-left:2px;line-height:1.6;margin-top:-2px}
 .desktop-nav {margin-left:auto;gap:35px;padding-left:0}
 .desktop-nav a {font-size:12px;padding-block:28px;color:var(--foreground)}
 .desktop-nav a:hover {text-decoration:underline;text-underline-offset:7px}
